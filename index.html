@@ -15,62 +15,44 @@
 
 </head>
 <body>
+
+    <!--Navigation Group-->
     <nav>
-        <div class="nav-logo">
-            <div class="nav-logoimg">
-                <img src="assets/icons/play_icon _logo.svg">
-            </div>
-            <div class="nav-logotxt">
-                <h3>STREAM</h3>
-            </div>
-
-            <nav class="nav-con">
-                <div class="nav-btns">
-                    <ul>
-                        <a href="index.html"><li class="active">Recent Releases</li></a>
-                        <a><li>Popular Albums</li></a>
-                        <a href="pages/about.html"><li>About Label</li></a>
-                        <a href="pages/playlist.html"><li>My Playlists</li></a>
-                    </ul>
-                </div>
-
-                <div class="nav-search">
-                    <input placeholder="Search...">
-                    <img class="search-icon" src="icon.png">
-                </div>
-            </nav>
-        </div>
+        <!--STREAM LOGO-->
+        <nav class="nav-logo"></nav>
+        <!--Links to other pages-->
+        <nav class="nav-con"></nav>
+        <!--Search Input item-->
+        <nav class="nav-search"></nav>
     </nav>
 
-     <!--Bootstrap Container-->
-     <div class="container-fluid">
-        <!--50% Layout Featured Artists-->        
-        <!--Heading-->
+    <!--Header Group-->
+    <header>
+        <!--Artist-->
+        <div class="head-text"></div>
+        <!--Header Button Group-->
+        <div class="head-btn"></div>
+    </header>
 
+    <!--Bootstrap container-->
+    <div class="container-fluid">
+        <!--Featured Artist Section-->
+        <div class="row featuredArtist">
+            <div class="col-6 video"></div>
+            <div class="col-6 Feature"></div>
+        </div>
 
-
-
-        <!--25% Layout Recent Releases Album Cards-->        
-        <!--Heading-->
-        <div class="row">
-            <div class="col-12 PopHeading">
-                <h3>
-                    Popular Releases
-                </h3>  
+        <!--Featured Artist Section-->
+        <div class="row recentRelease">
+            <div class="col-3 thumbnail">
+                <div class="releaseOverlay">
+                    <div class="releaseIcon"></div>
+                    <div class="releaseContent"></div>
+                </div>
             </div>
         </div>
 
-        <div class="row">
-
-            <div class="col-3">      
-            </div> 
-            
-           
-            
-        </div>
-     
-        
-    </div> <!--Bootstap Container-->
-
+    </div><!--Bootstrap container-->
+    
 </body>
 </html>
